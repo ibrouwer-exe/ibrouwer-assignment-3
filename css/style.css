@@ -5,6 +5,8 @@
 body, html {
     min-height: 100vh;
     margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
@@ -29,7 +31,24 @@ img {
     color: white;
     flex-grow: 1;
 }
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+}
+
+.grid-child {
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+}
 .avatar {
     background-color: lightblue;
     flex-grow: 4;
+    display: flex;
+    justify-content: center;
 }
