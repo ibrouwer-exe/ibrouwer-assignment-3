@@ -1,6 +1,6 @@
 // Wait for HTML document to get ready
 window.addEventListener('load', function() { // NOT `DOMContentLoaded`
-    
+
     var tattoo1 = new PlainDraggable(document.getElementById('tat1'));
       tattoo1.containment = {left: 0, top: 0, width: '100%', height: '100%'};
     var tattoo2 = new PlainDraggable(document.getElementById('tat2'));
