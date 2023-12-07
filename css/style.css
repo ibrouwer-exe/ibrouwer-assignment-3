@@ -7,6 +7,7 @@ body, html {
     margin: 0;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
 }
 
 img {
@@ -31,6 +32,7 @@ img {
     background-color: darkslategray;
     color: white;
     flex-grow: 1;
+    padding-top: 1%;
 }
 .grid-parent {
     display: grid;
@@ -40,7 +42,6 @@ img {
 }
 
 .grid-child {
-    background-color: slategray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,10 @@ img {
     align-items: center;
 }
 
-
+.avatar img {
+    max-width: 90%;
+    max-height: 100%;
+}
 
 
 
